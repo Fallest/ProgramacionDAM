@@ -1,0 +1,5 @@
+Escribe un programa que pida seis numeros con el fin de visualizar la media de los numeros insertados.
+
+Si el usuario en alguna de las inserciones de los numeros inserta letras, no se tendra en cuenta en la media; no obstante, contara como numero insertado.
+
+Para ello, se usara un metodo que pida un numero y si es una entrada erronea por haber insertado letras en vez de un numero, el propio metodo visualizara un mensaje de error. 

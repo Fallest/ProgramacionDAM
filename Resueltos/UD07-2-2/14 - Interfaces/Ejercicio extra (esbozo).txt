@@ -1,0 +1,10 @@
+Clase abstracta PERSONA: Nombre, edad
+- Método abstracto: tipoPersona();
+
+Subclase EMPLEADO (de PERSONA): Departamento, salario
+
+SubClase COMERCIAL (de EMPLEADO): Comision
+
+Interfaz OPERACIONES (para EMPLEADO y COMERCIAL): aplicarAumento()
+
+Interfaz VENTAS (para COMERCIAL): asignarZona()

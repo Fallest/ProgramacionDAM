@@ -1,0 +1,5 @@
+1) ¿Tiene sentido que una función constructora sea pública? ¿Y package? ¿Y protected? ¿Y private?
+
+-----------------------------------------------------------------------------------
+
+2) Modificar el programa anterior de tal forma que al declarar el objeto también se pueda enviar el carácter que quiere visualizar.

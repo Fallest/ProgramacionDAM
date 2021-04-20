@@ -1,0 +1,6 @@
+Realizar un programa que permita utilizar el terminal como un diccionario inglés - español, es decir, que al indicar una palabra en inglés se visualice la correspondiente palabra en español.
+
+Para ello el usuario insertará los datos de dicho diccionario, solicitándole anteriormente que indique cuántas parejas de palabras se van a insertar.
+
+A continuación el programa ordenará el diccionario por las palabras en ingles. 
+Finalmente el programa pasará al modo de traducción, de forma que si se introduce una palabra en inglés se emitirá un mensaje con su traducción al español y un mensaje de error si la palabra no existe. Este proceso debe terminar cuando el usuario teclee la palabra "fin".

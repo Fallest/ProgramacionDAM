@@ -1,0 +1,5 @@
+Añadir al programa anterior la posibilidad de visualizar el resto de la división.
+
+Además, en el caso de que el divisor sea cero, informar al usuario pero permitir que pueda de nuevo introducir ese dato hasta que la división pueda realizarse o lo haya intentado 5 veces sin éxito.
+
+Añadir a la zona de excepciones un bloque finally con un mensaje final.

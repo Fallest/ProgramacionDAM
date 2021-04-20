@@ -1,0 +1,25 @@
+Escribir un programa que pida los datos de una serie de alumnos.
+
+El programa pedirá que se indique el número de alumnos con los que se va a trabajar. De dichos alumnos nos interesará registrar su nombre y diferentes números de teléfono (el suyo, el de casa, el de familiares, ...).
+
+Cada alumno aportará los números de teléfonos que tenga, teniendo en cuenta que un alumno nos dará un solo número de teléfono, otro tres, etc. No hay límite en la cantidad de números de teléfonos que podamos tener de un alumno.
+
+Para ello, el programa preguntará al usuario del programa que le informe de la cantidad de teléfonos que se van a insertar para cada alumno.
+
+Cuando el programa tenga los datos de todos los alumnos, se visualizará la información de cada uno de ellos.
+
+----------------------------------------------------------------------------------------
+
+Escribir un programa que pida las edades de los profesores de un instituto. El instituto tiene 4 departamentos y en cada uno de ellos hay 6 profesores.
+
+Una vez introducida toda esa información, el programa permitirá indicar qué profesor tiene una edad solicitada por el teclado (si son varios, deberá mostrarse el último).
+
+----------------------------------------------------------------------------------------
+
+Escribir un programa que pida la información de una serie de empleados, tantos como el usuario indique. De cada empleado nos interesará registrar su nombre y su sueldo. Hay que validar que en la entrada de datos no se inserten letras y que sean números positivos.
+
+El programa deberá ordenar la lista de empleados por el sueldo (ascendentemente).
+
+Una vez ordenados los datos, el programa debe permitir consultar los empleados con un sueldo inferior o igual a uno indicado por el teclado, y repetir esta tarea hasta que el usuario introduzca un sueldo negativo.
+
+----------------------------------------------------------------------------------------

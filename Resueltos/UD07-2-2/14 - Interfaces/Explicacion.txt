@@ -1,0 +1,24 @@
+public interface Obligatorio
+{
+  public void pedirTodosDatos();
+  public void visualTodosDatos();
+}
+
+/*
+  Los interfaces no se heredan, se implementan:
+  
+    class MiClase implements Obligatorio
+	{
+	  . . . . .
+	  void pedirTodosDatos()
+	  {
+	    <codigo>
+	  }
+	  
+	  void visualTodosDatos()
+	  {
+	    <codigo>
+	  }
+	  . . . . .
+	}
+*/

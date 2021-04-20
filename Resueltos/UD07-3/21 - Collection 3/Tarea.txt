@@ -1,0 +1,10 @@
+Escribir un programa que cargue dos colecciones distintas con datos de diferentes tipos. Una debe ser de tipo LinkedList y la otra de tipo ArrayList. Insertar todos los hijos que se quieran. Insertar algún objeto en común en las dos colecciones.
+
+A continuación, el programa deberá llevar a cabo las siguientes operaciones:
+
+- Añadir a la primera colección todos los hijos que tenga la segunda.
+- Borrar de la primera colección todos los hijos que no estén en la otra.
+- Borrar de la segunda colección todos los hijos que estén en la otra.
+- Borrar todos los hijos de la primera colección.
+
+Según se vayan realizando cada una de las operaciones, se va a ir visualizando el contenido de las dos colecciones con el fin de comprobar cómo van quedando.
