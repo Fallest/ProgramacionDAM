@@ -1,0 +1,31 @@
+Realizar un programa que cargue aleatoriamente una matriz de 4 x 3 elementos con números de 1 a 100, la imprima y calcule: 
+a. La media de los elementos pares. 
+b. El máximo elemento de cada fila y el mínimo de cada columna. 
+
+
+
+Realizar un programa que lea las notas de 10 alumnos en 5 exámenes y después escriba: 
+a. El número de alumno con mejor nota media. 
+b. El examen que más alumnos han aprobado. 
+c. El número alumno con nota máxima (y su nota) en cada uno de los exámenes. 
+
+
+
+Realizar un programa que cargue una matriz de enteros 4 x 4 aleatoriamente, e intercambie las filas por las columnas. 
+
+
+
+Realizar un programa que lea las calificaciones obtenidas por un grupo de 12 alumnos en cuatro asignaturas y saque por pantalla lo siguiente: 
+a. Número de alumnos con 4 asignaturas suspensas, con 3, con 2, con 1 y con 0. 
+b. Nota media de cada una de las asignaturas. 
+c. Listado de la nota media con el número de alumno y su nota media, estando ordenado por ésta de menor a mayor. 
+
+
+
+Realizar un programa que realice una pequeña versión del juego Buscaminas. Empezamos el juego mostrando un tablero de 8 x 8 donde sólo se verá la posición del jugador (J) en la posición (1,1) y el resto el carácter *. El juego consiste en llegar a 
+la posición final (8,8) sin pisar ninguna mina. Se colocarán 20 minas aleatoriamente en el tablero. El jugador elegirá donde quiere moverse con los cursores, teniendo en cuenta que no puede salirse del tablero. El juego acaba cuando el jugador gana o
+cuando pierde pisando una mina. 
+
+
+
+Realizar un programa que realice una pequeña versión del juego “Conecta 4”. El tablero es de 8 x 8. Existen dos jugadores uno juega con fichas rojas ‘R’ y otro con fichas amarillas ‘A’. Por turno cada jugador irá eligiendo en que columna tira la ficha. La ficha cae abajo del tablero. Gana el primero que consiga hacer 4 en raya. Para simplificar suponemos que sólo se admiten 4 en rayas horizontales y verticales. 

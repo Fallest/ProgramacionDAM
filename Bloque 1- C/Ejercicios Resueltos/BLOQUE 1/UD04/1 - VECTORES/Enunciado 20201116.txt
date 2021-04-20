@@ -1,0 +1,5 @@
+Declarar un vector de N posiciones enteras.
+
+Rellenamos el vector con valores aleatorios entre X e Y, ambos limites los introduce el usuario previamente.
+
+El programa debera mostrar el vector, indicar cual es el valor maximo, cual es el valor minimo y cual es la media de los valores.

@@ -1,0 +1,15 @@
+Diseñar un algoritmo que dadas dos matrices de enteros de 3 x 3 calcule e imprima las matrices suma y resta de las dos. 
+
+
+
+Realizar una función que multiplique por un número n una matriz de 3 x 4 de enteros. 
+
+
+
+Realizar una función que dada una matriz de enteros 4 x 4 y un número n
+devuelva la fila y columna en la que se encuentra este número y si el número n
+no está en la matriz devuelva ambos valores a 0. 
+
+
+
+Diseñar un algoritmo que dada una matriz de enteros de 3 x 4 (que debe cargarse aleatoriamente con números de 1 a 1000) calcule el elemento mínimo de la matriz, informando de la posición (fila, columna) en la que se encuentra. 

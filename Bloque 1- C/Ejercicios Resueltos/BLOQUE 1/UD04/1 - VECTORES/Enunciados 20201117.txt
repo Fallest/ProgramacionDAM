@@ -1,0 +1,10 @@
+Añadir al programa anterior la siguiente funcionalidad:
+
+El usuario introduce un numero y el programa le devolvera si existe en el vector y, en caso afirmativo, en que posiciones.
+
+
+=============================================
+
+- Declarar un vector de tamaño N.
+- Introducir valores hasta que el usuario introduzca un número negativo o hasta que se llene el vector.
+- Buscar el elemento máximo del vector, imprimirlo e indicar en qué posición se encuentra. Indicar también si está repetido o no.

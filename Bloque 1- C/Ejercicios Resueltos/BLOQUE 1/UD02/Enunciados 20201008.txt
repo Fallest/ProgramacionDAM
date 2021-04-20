@@ -1,0 +1,13 @@
+24) Realizar un programa que solicite una serie de números mayores que cero por teclado e 
+imprima el valor máximo y el valor mínimo. La serie termina al introducir un 0.
+
+
+25) Algoritmo que lee una secuencia de números no nulos, terminada con la introducción de 
+un cero, y obtiene e imprime el mayor, visualizando un mensaje de si se ha leído algún número negativo. 
+
+
+26) Algoritmo que lee dos números positivos X y N, y calcula la N-ésima potencia de X (sin 
+utilizar el operador ^). 
+
+
+27) Algoritmo que lea un numero entero y compruebe si es primo.

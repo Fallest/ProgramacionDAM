@@ -1,0 +1,9 @@
+14) El usuario introduce numeros enteros. Si introduce un 0 debe dejar de pedirlos. Al final, el programa debe decir cuantos numeros pares ha introducido.
+
+
+
+15) Realizar 10 veces el proceso siguiente: Introducir un número del 1 al 50 y visualizar a qué decena pertenece. 
+ 
+
+ 
+16) Introducir números por el teclado hasta que la suma de todos ellos sea mayor que 1000. 

@@ -1,0 +1,7 @@
+21) El cálculo del precio de un billete de ida y vuelta de una compañía aérea se efectúa en función de la distancia. Para distancias inferiores a 1000km, el precio el billete es de 220 euros. Para distancias superiores el precio es de 0.30 euros/km. Además, si entre el día de ida y el de vuelta hay menos de 7 días, el precio del billete se reduce un 60%. Realizar un programa que reciba la distancia del vuelo, el día y el mes de la ida y los de vuelta y calcule el precio el billete. NOTA: Suponer todos los meses con 30 días y que las dos fechas son del mismo año.
+
+
+22) Algoritmo al que le damos la hora HH:MM:SS y nos calcula la hora dentro de un segundo. 
+
+
+23) Encontrar el entero positivo más pequeño N para el cual la suma 1+2+3+...+N sea menor que un límite introducido por teclado. 

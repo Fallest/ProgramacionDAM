@@ -1,0 +1,148 @@
+1)
+PROGRAMA conversor_pesetas_euros
+  ESCRIBIR "Indique la cantidad de pesetas que desea convertir: "
+  LEER pesetas
+  CALCULAR euros = pesetas / 166,386
+  ESCRIBIR "Equivale a ", euros, "euros."
+FIN conversor_pesetas_euros
+
+
+2) 
+PROGRAMA bascula
+  ESCRIBIR "Introduzca el peso del articulo: "
+  LEER peso
+  ESCRIBIR "¿Cuanto cuesta el kilo de ese articulo?: "
+  LEER precio_por_kilo
+  CALCULAR importe = peso x precio_por_kilo
+  ESCRIBIR "El importe a pagar es de ", importe, " euros."
+  ESCRIBIR "Indicar cuanto dinero se aporta: "
+  LEER pago
+  CALCULAR cambio = pago - importe
+  ESCRIBIR "El cambio es de ", cambio, " euros."
+FIN bascula
+
+PROGRAMA bascula v2
+  ESCRIBIR "Introduzca el peso del articulo: "
+  LEER peso
+  ESCRIBIR "¿Cuanto cuesta el kilo de ese articulo?: "
+  LEER precio_por_kilo
+  CALCULAR importe = peso x precio_por_kilo
+  ESCRIBIR "El importe a pagar es de ", importe, " euros."
+  ESCRIBIR "Indicar cuanto dinero se aporta: "
+  LEER pago
+  SI pago >= importe
+    CALCULAR cambio = pago - importe
+    ESCRIBIR "El cambio es de ", cambio, " euros."
+  EN CASO CONTRARIO
+    ESCRIBIR "Debe aportar una cantidad mayor que el importe."
+FIN bascula v2
+
+PROGRAMA bascula v3
+  ESCRIBIR "Introduzca el peso del articulo: "
+  LEER peso
+  ESCRIBIR "¿Cuanto cuesta el kilo de ese articulo?: "
+  LEER precio_por_kilo
+  CALCULAR importe = peso x precio_por_kilo
+  ESCRIBIR "El importe a pagar es de ", importe, " euros."
+  REPETIR
+    ESCRIBIR "Indicar cuanto dinero se aporta: "
+    LEER pago
+  HASTA QUE pago >= importe
+  CALCULAR cambio = pago - importe
+  ESCRIBIR "El cambio es de ", cambio, " euros."
+FIN bascula v3
+
+
+3.1) 
+PROGRAMA soluciones_ecuacion
+  ESCRIBIR "Escriba el coeficiente de la x cuadrado: "
+  LEER a
+  ESCRIBIR "Escriba el coeficiente de la x: "
+  LEER b
+  ESCRIBIR "Escriba el termino independiente: "
+  LEER c
+  CALCULAR sol1 = (-b + raiz (b^2 - 4 x a x c)) / (2 x a)
+  CALCULAR sol2 = (-b - raiz (b^2 - 4 x a x c)) / (2 x a)
+  ESCRIBIR "Las soluciones son ", sol1, " y ", sol2
+FIN soluciones_ecuacion
+
+PROGRAMA soluciones_ecuacion v2
+  ESCRIBIR "Escriba el coeficiente de la x cuadrado: "
+  LEER a
+  ESCRIBIR "Escriba el coeficiente de la x: "
+  LEER b
+  ESCRIBIR "Escriba el termino independiente: "
+  LEER c
+  SI (b^2 - 4 x a x c) >= 0
+    CALCULAR sol1 = (-b + raiz (b^2 - 4 x a x c)) / (2 x a)
+    CALCULAR sol2 = (-b - raiz (b^2 - 4 x a x c)) / (2 x a)
+    ESCRIBIR "Las soluciones son ", sol1, " y ", sol2
+  EN OTRO CASO
+    ESCRIBIR "La ecuacion no tiene soluciones reales."
+FIN soluciones_ecuacion v2
+
+PROGRAMA soluciones_ecuacion v3
+  ESCRIBIR "Escriba el coeficiente de la x cuadrado: "
+  LEER a
+  ESCRIBIR "Escriba el coeficiente de la x: "
+  LEER b
+  ESCRIBIR "Escriba el termino independiente: "
+  LEER c
+  CALCULAR radicando = b^2 - 4 x a x c
+  SI radicando >= 0
+    CALCULAR sol1 = (-b + raiz (radicando)) / (2 x a)
+    CALCULAR sol2 = (-b - raiz (radicando)) / (2 x a)
+    ESCRIBIR "Las soluciones son ", sol1, " y ", sol2
+  EN OTRO CASO
+    ESCRIBIR "La ecuacion no tiene soluciones reales."
+FIN soluciones_ecuacion v3
+
+
+3.2)
+PROGRAMA escribe_ecuacion
+  ESCRIBIR "Escriba el valor de la primera solucion: "
+  LEER sol1
+  ESCRIBIR "Escriba el valor de la segunda solucion: "
+  LEER sol2
+  ESCRIBIR "La ecuacion resultante es: "
+  ESCRIBIR "x^2 - ", (sol1+sol2), "x + ", (sol1xsol2)," = 0"
+FIN escribe_ecuacion
+
+4)
+Los apartados a y b hacen referencia en realidad al mismo supuesto: el comerciante vende (pvp) un articulo un tanto por ciento mas caro (recargo o beneficio) de lo que le costo (coste).
+
+PROGRAMA precio_venta_publico
+  ESCRIBIR "¿Cuanto le costo el articulo?: "
+  LEER coste
+  ESCRIBIR "¿Que porcentaje de ganancia quiere?: "
+  LEER recargo_beneficio
+  CALCULAR pvp = coste + (coste x (recargo_beneficio / 100))
+  ESCRIBIR "El precio de venta al publico es de ", pvp, "euros."
+FIN precio_venta_publico
+
+
+5)
+PROGRAMA division
+  ESCRIBIR "Introduce el valor del dividendo: "
+  LEER dividendo
+  ESCRIBIR "Introduce el valor del divisor: "
+  LEER divisor
+  SI divisor distinto de 0
+    CALCULAR cociente = dividendo / divisor
+    ESCRIBIR "El cociente vale ", cociente
+  EN OTRO CASO
+    ESCRIBIR "No es posible calcular el cociente."
+FIN division
+
+
+6) 
+PROGRAMA acumular_numeros
+  suma = 0
+  REPETIR
+    ESCRIBIR "Introduzca un valor numerico (o cualquier otra cosa si desea salir): "
+    LEER entrada
+    SI entrada es un numero
+      CALCULAR suma = suma + numero
+  HASTA QUE entrada no sea numerica
+  ESCRIBIR "El valor acumulado es ", suma
+FIN acumular_numeros

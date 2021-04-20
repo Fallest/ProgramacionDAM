@@ -1,0 +1,16 @@
+45) Realizar un programa que solicite un número estrictamente positivo. A continuación solicitará que cifra queremos obtener del citado número. Si esa cifra no existe se mostrará el mensaje “No existe la cifra en el número”.
+
+Ejemplo: 
+Introduce un número: 149877
+
+¿Qué orden de cifra quieres?  3
+La cifra con orden 3 es un 8
+¿Otra cifra (S/N)? S
+
+¿Qué orden de cifra quieres?  4
+La cifra con orden 4 es un 9
+¿Otra cifra (S/N)? S
+
+¿Qué orden de cifra quieres?  7
+No existe la cifra 7 en el número
+¿Otra cifra (S/N)? N

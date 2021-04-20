@@ -1,0 +1,32 @@
+28) Un comercio dispone de dos tipos de artículos en fichas correspondientes a diversas sucursales con los siguientes campos: 
+-   Código del artículo A o B. 
+-   Precio unitario del artículo. 
+-   Nº de artículos. 
+
+La última ficha tiene un código de artículo X. Se p
+ide calcular el número de artículos existentes de cada categoría y el importe total de los artículos de cada categoría. 
+
+
+
+29) Se dispone de un cierto número de valores de los cuáles el último es el 999 y se desea determinar el valor máximo de las medias correspondientes a parejas de valores sucesivos. 
+
+
+
+30) Realizar un programa que lea un número entero positivo y averigüe si es perfecto. Un número es perfecto cuando es igual a la suma de sus divisores excepto el mismo. 
+
+
+
+31) Realizar un programa que solicite dos números enteros y calcule su máximo común divisor. 
+
+
+
+32) Hacer un programa que compruebe si dos números 
+enteros positivos son amigos (dos números son amigos si la suma de los divisores del primero, exceptuando el propio número, es igual al segundo y viceversa). 
+
+
+
+33) Realizar un programa que lea un número entero positivo y determine el número de cifras que tiene dicho número. 
+
+
+
+34) Escribir un programa que lea un número entero positivo y lo escriba invertido. 

@@ -1,0 +1,23 @@
+39) Realiza la suma de dos numeros leidos del teclado, de una forma modular.
+
+
+40) Diseñar una función que dada una cantidad (precio de un producto) y un tanto por ciento nos devuelva el resultado de hacer ese tanto por ciento de descuento.
+La función deberá ser llamada desde un programa que solicite precios de los productos y % de rebaja que se le aplica, mostrando el precio rebajado. Se introducirán todos los productos que se quieran hasta que el cliente desee.
+ 
+
+41) Realizar un programa que calcule los números primos entre 1 y 1000, utilizando una función que indique si un número recibido como parámetro es o no primo.
+
+
+42) El número de combinaciones de m elementos tomados de n en n se calcula con la fórmula:
+
+m! * n ! /  (m – n) !
+
+Realizar un programa que lea desde el teclado los valores de m y n. Comprobar  que  m  es  mayor  que  n  y  calcular  el  número  de combinaciones.
+
+
+43) Realizar una función que dado n devuelva el valor de f(n):
+
+f(n)=(1! + 2! + 3! + ….. n!) / n
+
+
+44) Realizar un programa que lea una cantidad de números a introducir. Para cada uno de los números introducidos debe indicar si el número es o no perfecto (un nº es perfecto cuando es igual a la suma de sus divisores excepto el mismo).

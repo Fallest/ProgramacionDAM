@@ -1,0 +1,42 @@
+Librerías:
+	stdlib.h, stdio.h
+
+Constantes:
+	ALUM 30
+
+Funciones:
+	
+	main():
+		Variables: 	int notas_alumnos[ALUM], opcion
+				char criterio
+		Función: Contiene el bucle de ejecucion, del cual se saldra
+			cuando el usuario lo decida. Muestra un menú, en el que
+			se pueden seleccionar 5 opciones:
+			-Actualizar la nota a un alumno
+			-Mostrar la nota actual de un alumno
+			-Mostrar estadísticas generales
+			-Listado de alumnos
+			-Salir
+
+	void actualizar_nota(int notas_alumnos[], int nota, int alumno):
+		Variables: int i
+		Función: Actualiza la nota de un alumno, dada su posición, la 
+			nota, y el vector con las notas de los alumnos.
+
+	void mostrar_nota(int notas_alumnos[], int alumno):
+		Variables: int i
+		Función: Muestra la nota actual que tiene un alumno, dada su posición
+			y el vector de notas.
+
+	void mostrar_estadisticas(int notas_alumnos[], ):
+		Variables: int no_presentado = 0, no_datos = 0, aprobados = 0, i;
+		Función: Muestra cuántos alumnos no se han presentado, de cuántos
+			no hay datos, y cuántos están aprobados hasta el momento.
+
+	void mostrar_listado(int notas_alumnos[], bool criterio):
+		Variables: int i, auxiliar[ALUM]
+		Función: Se elige si se quieren mostrar todos los alumnos o solo
+			los que tengan una nota numérica real. En ambos casos,
+			mostrar la lista ordenada por un criterio (mostrar por
+			pantalla qué criterio se ha seguido), mostrando la nota y 
+			el alumno a la que pertenece.

@@ -1,0 +1,27 @@
+5) Introducir un número desde el teclado y decir si  es positivo, negativo o cero. 
+RETO: Si no es cero, indica también si es par.
+
+
+6) Introducir tres números A, B y C y visualizar el mayor de ellos. 
+RETO: Indicar también si se ha producido un empate en el mayor.
+
+
+7) Sabiendo que la correspondencia entre las notas numéricas y sus correspondientes alfabéticas es la que sigue, pasar cualquier nota numérica a alfabética y mostrar el resultado en pantalla, siendo N la nota numérica introducida por el usuario: 
+
+0 <= N < 3     MUY DEFICIENTE 
+3 <= N < 5     INSUFICIENTE 
+5 <= N < 6     SUFICIENTE 
+6 <= N < 7     BIEN 
+7 <= N < 9     NOTABLE 
+9 <= N <= 10   SOBREALIENTE 
+
+RETO: Si la nota no es válida, indicarlo. Si la nota es 10, indicar que es MATRÍCULA DE HONOR (y usar un rótulo destacado).
+
+
+
+8) Realizar una calculadora aritmetica sencilla:
+- Se leen dos numeros enteros.
+- Se lee un caracter: S, R, M, D (suma, resta, multiplicacion o division).
+- Dependiendo de la letra, se calcula la expresion correspondiente a esa operacion.
+- Se muestra el resultado.
+OJO: Division por cero.

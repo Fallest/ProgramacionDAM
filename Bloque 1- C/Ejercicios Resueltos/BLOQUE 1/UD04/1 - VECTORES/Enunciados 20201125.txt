@@ -1,0 +1,20 @@
+Rellenar completamente un vector de N posiciones enteras.
+
+Pedimos al usuario un valor y una posicion.
+
+Insertamos el nuevo valor en el vector, concretamente en la posicion que me han dado.
+
+========================================
+
+Realizar un programa que cargue por teclado un vector con 15 elementos numéricos entre 1 y 1000, de tal forma que no haya ningún elemento repetido. 
+
+========================================
+
+Realizar un programa que lea un número positivo no superior a 50000 y diga si 
+es o no capicúa. 
+
+========================================
+
+Diseñar un algoritmo que dado un número entero positivo no superior a 40 nos devuelva su correspondiente valor en binario. 
+
+========================================

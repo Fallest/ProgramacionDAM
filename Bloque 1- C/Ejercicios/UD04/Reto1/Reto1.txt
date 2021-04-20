@@ -1,0 +1,36 @@
+Include: stdlib.h, stdio.h
+
+void main():
+	Variables: int opcion
+		   int op_realizadas[4], vector[10]
+		   bool ejecucion = true
+	Funcion: Muestra un menú con las 5 opciones disponibles. Se eligirá con
+	números.
+
+void rellenar_vector(int vec[]):
+	Variables: int num, i
+	Funcion: Modifica un vector de 10 posiciones y lo llena con 
+	numeros aleatorios entre el 10 y el 100.
+
+void calcular_medias(int vec[]):
+	Variables: int dec_cercana[2], sumas_totales[2], medias[2], paridad[2], i
+	Funcion: Calcula la media de los valores pares del vector.
+	Mostrar por pantalla la decena más cercana a esa media, el numero
+	de posiciones pares e impares del vector, y si las posiciones
+	pares o impares son cero, devolver un error.
+
+void almacenar_extremos(int vec[]):
+	Variables: int extremos[4], auxiliar[TAM], i
+	Funcion: Guarda en un vector auxiliar los dos valors más bajos y los dos
+	más altos. Luego, los muestra por pantalla.
+
+void ordenar_vector(int vec[], int size):
+	Variables: int aux, i, j
+	Funcion: Aplicar el algoritmo de ordenacion de burbuja mejorado (si en un 
+	recorrido no se realiza ningun intercambio, el procedimiento de 
+	ordenacion termina).
+
+void salir(bool *ejecucion, int op_realizadas[]):
+	Variables: int i
+	Funcion: Muestra por pantalla qué opciones se han realizado y cuántas
+	veces se han realizado, luego, sale de la funcion.

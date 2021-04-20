@@ -1,0 +1,58 @@
+Librerias: stdlib, stdio
+
+Constantes: 
+	ANUNCIANTES 10
+	ANUNCIOS 30
+	No podra haber mas de 10 anunciantes, ni mas de 30 anuncios por anunciante
+
+Funciones:
+	void main():
+		Variables:	char anunciantes[ANUNCIANTES][6];
+				int opcion, anuncios[ANUNCIOS];
+				
+		Función: Esta funcion va a tener el bucle de ejecucion del 
+			programa, tambien incluyendo el menu para la gestion
+			de datos. En ella van a estar las matrices que se van
+			a usar en las operaciones de las demas funciones.
+
+	void registrar_anunciante(char anunciantes[ANUNCIANTES][6]):
+		Variables: 	int i, j;
+				char nombre[];
+		
+		Funcion: Va a registrar cuantos nombres se le den, usando un
+			bucle while. Una vez registrados los nombres, se ordenaran
+			en la matriz anunciantes. 
+			Se hara uso de gets(cad) para recoger el nombre del anunciante
+			en una cadena, que posteriormente se recortara a 5 caracteres con
+			strncpy() (6 con el /0), y se pasara a mayusculas con strupr().
+			Se usara strlen() para comprobar que el nombre abreviado 
+			del anunciante es como minimo de 1 caracter y como maximo de 5.
+			Para comprobar que
+			los datos estan ordenados alfabeticamente, se llamara a otra
+			funcion (ordenar_alfabeticamente) que realizara el trabajo.
+
+	void ordenar_alfabeticamente(char matriz[ANUNCIANTES][6]):
+		Variables:	int i, j;
+				char aux[2];
+	
+		Funcion: Ordena una matriz de caracteres dada por su primer
+			elemento. Se compararan los primeros elementos de cada fila
+			del array dado y se ordenarán de mayor a menor.
+
+	void registro_anuncio(char anunciantes[ANUNCIANTES][6], int auncios[ANUNCIOS]):
+		Variables: 	int i, j;
+				int anuncio[1][1][1];
+		Funcion: Va a mostrar una lista con los nombres abreviados de los
+			anunciantes. El usuario podra escoger cualquiera y dara
+			una hora y duracion para el anuncio. Estos datos se 
+			recogeran en el array anuncio[posicion del anunciante en
+			la matriz anunciantes][hora y minutos en segundos][duracion en 
+			segundos]. Se añadira a anuncios[] el anuncio[][][].
+
+	void estadisticas_anunciantes(char anunciantes[ANUNCIANTES][6], int anuncios[ANUNCIOS]):
+		Variables: int i, j, min, s;
+		
+		Funcion: Muestra los nombres abreviados de los anunciantes junto
+			con el numero de anuncios registrados para ese anunciante
+			y la duracion total (en min y s). El listado debe aparecer
+			ordenado por nombre de anunciante.

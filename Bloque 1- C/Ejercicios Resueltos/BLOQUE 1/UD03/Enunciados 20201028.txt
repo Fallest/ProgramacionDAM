@@ -1,0 +1,25 @@
+1)	Realizar un programa que presente el siguiente menú:
+
+1)	Suma de números naturales
+2)	Factorial
+3)	Suma de los inversos
+4)	Fin
+
+Después de pulsar una opción deberá pedir un número N.
+Si la opción es la 1 se calculará la suma 1+2+3+...N.
+Si la opción es la 2 se calculará 1*2*3*...N.
+Si la opción seleccionada es la 3 se calculará  1/1 +1/2 + 1/3 +...+ 1/N.
+
+
+=======================================================================================
+
+
+
+2)	Realizar un programa que permita gestionar el saldo de una cuenta corriente. Una  vez  introducido  el  saldo  inicial,  se  mostrará  un  menú  que  permitirá efectuar las siguientes operaciones:
+
+a)	Hacer un reintegro, se pedirá la cantidad a retirar. No podra sacar mas dinero del que tiene.
+b)	Hacer un ingreso, se pedirá la cantidad a ingresar.
+c)	Consultar el saldo y el número de reintegros e ingresos realizados.
+d)	Finalizar  las  operaciones.  Debe  confirmar  si  realmente  desea  salir  e informar del saldo al final de todas las operaciones.
+
+Cada operación se deberá hacer en una función distinta.

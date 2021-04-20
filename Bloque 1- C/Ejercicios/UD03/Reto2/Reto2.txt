@@ -1,0 +1,30 @@
+INCLUDE stdio.h, windows.h
+
+void main():
+	Variables: int num1, num2, contador = 0, oportunidades;
+		   int num1_c1, num1_c2, num1_c3;
+		   int num2_c1, num2_c2, num2_c3;
+		   bool fin_juego = false;
+	En esta función solo se van a realizar las llamadas a las otras funciones,
+	junto con la lectura de datos. Esta función llevará también la cuenta de 
+	cuantas veces se ha llamado a la función comparar_cifras(). Esta funcion
+	mostrara por pantalla solo si se ha perdido el juego.
+
+bool lectura_valida(int num):	
+	Variables: bool resultado = false;
+	El trabajo de esta función es comprobar que el número dado tiene 3 cifras
+	y son todas diferentes.
+
+bool comparar_cifras(int num1, int num2):
+	Variables: int num1_c1, num1_c2, num1_c3;
+		   int num2_c1, num2_c2, num2_c3;
+		   int cifras_presentes = 0, cifras_correctas = 0;
+		   bool resultado = false;
+	Esta función va a comparar dos numeros válidos, y va a mostrar por pantalla
+	qué cifras coinciden, y cuantas están en su posición correcta. Si todas
+	las cifrs coinciden y coinciden en su posicion, mostrar mensaje de victoria.
+
+void desglose_cifras(int num, int *c1, int *c2, int *c3):
+	Variables: int num_inv = 0;
+	Esta funcion desglosa las cifras de un numero y las guarda en la direccion
+	de memoria indicada en los parametros para cada una de las cifras.

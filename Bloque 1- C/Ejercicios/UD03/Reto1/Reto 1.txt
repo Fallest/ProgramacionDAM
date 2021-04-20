@@ -1,0 +1,55 @@
+Programa 1:
+	void main()
+		Variables: int duracion, h_inicio, min_inicio, 
+				h_fin, min_fin; float importe
+		En esta función vamos a realizar la lectura de datos
+		y vamos a hacer las llamadas a las otras funciones, 
+		mostrando por pantalla el importe.
+	int calcular_duracion(int hora_comienzo, int min_comienzo, 
+				int hora_fin, int min_fin)
+		Variables: int duracion
+		Esta funcion recibe la hora y min de comienzo y la
+		hora y min de fin de llamada y devuelve un entero
+		que son los minutos totales de duracion.
+	float calcular_importe(int duracion)
+		Variables: float coste_base = 0,12, coste_min = 0,06,
+				coste_min_hora = 0,10, importe
+		Esta funcion recibe la duracion de la llamada
+		y devuelve el coste.
+
+Programa 2:
+	void main():
+		Variables: int a, b, n;
+			   bool coincidentes;
+		En esta funcion se va a realizar la lectura de los dos enteros positivos 
+		a y b, y del entero positivo n, y se va a mostrar por pantalla si a y b 
+		son n coincidentes.
+	bool n_coincidentes(int a, int b, int n):
+		Variables: int suma_a = 0, suma_b = 0, i;
+			   bool resultado = false;
+		Esta funcion va a tomar a y b, va a obtener sus n ultimas cifras, va a 
+		sumar las cifras de cada numero por separado, y va a comprobar si dan
+		el mismo resultado. Si son iguales, la funcion devolvera true. En otro
+		caso, devolvera false.
+
+Programa 3:
+	void main():
+		Variables: int mes_inicio, dia_inicio, mes_dev, dia_dev, dias_totales, saldo;
+			   float importe;
+			   bool puede_devolver = false, es_novedad = false;
+			   char novedad;
+		Esta funcion va a realizar la lectura de datos y mostrara en pantalla
+		el mensaje correspondiente.
+	int calculo_dias(int mes_inicio, int dia_inicio, int mes_dev, int dia_dev):
+		Variables: int dias_totales;
+		Esta funcion va a calular el numero de dias totales que ha estado
+		alquilada la pelicula. Devolvera el numero de dias.
+	float calculo_importe(int duracion, bool novedad):
+		Variables: float aumento_novedad = 0,04, importe;
+			   float precio_1a3 = 1,20, precio_mas3 = 0,75;
+		Esta funcion va a calcular el importe a cobrar de la pelicula
+		alquilada. Devolvera el importe.
+	bool hay_saldo(int saldo_inicial, float importe):
+		Variables: bool resultado;
+		La funcion va a comprobar si la tarjeta tiene saldo suficiente.
+		Devolvera true si tiene; y false si no tiene suficiente.

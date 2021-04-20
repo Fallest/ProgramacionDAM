@@ -1,0 +1,29 @@
+﻿Diseñar un algoritmo que permita invertir el contenido de un array 10 de caracteres. El algoritmo no podrá utilizar vectores auxiliares.
+
+Vector original:
+E L O R I G I N A L
+Vector invertido:
+L A N I G I R O L E
+
+
+
+
+Realizar un programa que haga lo siguiente:
+• lea números 10 números enteros positivos y los introduzca en un vector.
+• ordene de menor a mayor el vector.
+• solicite un número x y lo introduzca en el lugar que le corresponda para que el vector siga estando ordenado. El elemento que estaba en la última posición del vector debe desaparecer (salvo que sea superior al mayor, en cuyo caso no se inserta).
+
+
+
+
+Diseñar un algoritmo cuya entrada sean las calificaciones de un determinado curso (30 alumnos) y cuya salida sean las calificaciones ordenadas en orden descendente. Sacar por pantalla también la nota media.
+
+
+
+
+Programa que declare tres vectores 'v1', 'v2' y 'alterno' de 5, 5 y 10 enteros respectivamente. El programa debe cargar los vectores 'v1' y 'v2' y rellenar 'alterno' con valores alternos de 'v1' y 'v2', es decir, el primer elemento de 'v1', el primero de 'v2', el segundo de 'v1', el segundo de 'v2'... Al final debe mostrar 'alterno' por pantalla.
+
+
+
+
+Realizar un programa que lea dos vectores no ordenados de 5 números enteros cada uno y devuelva un vector ordenado con los 10 números, suponiendo que los dos vectores iniciales deben ser ordenados utilizando un método apropiado y que la inserción de los elementos en el vector resultado debe ser ordenada. 

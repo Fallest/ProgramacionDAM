@@ -1,0 +1,14 @@
+35) Imprimir los N primeros múltiplos de M, donde N y M son valores introducidos por teclado. 
+
+
+
+36) Realizar un programa que lea un número N de alumnos que hay en una clase. A continuación debe leer la nota de cada uno de ellos en un examen y nos debe informar del número de suspensos y aprobados, así como los porcentajes. 
+
+
+
+37) Realizar un programa que calcule el factorial de un número N entero y positivo leído por teclado.
+
+
+
+38) Imprimir los N primeros términos de la serie de Fibonacci.
+V2: Dado un valor M, imprimir los valores no superiores a él.

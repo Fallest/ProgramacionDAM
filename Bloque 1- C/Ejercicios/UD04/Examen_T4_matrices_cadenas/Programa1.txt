@@ -1,0 +1,49 @@
+Include: stdio, stdlib, string
+
+Define:	LONGCAD 40
+	LONGVOC 6
+	TAM 100
+
+Funciones:
+	void main():
+		Variables: 	char matriz_cadenas[TAM][LONGCAD], matriz_vocales[TAM][LONGVOC]
+				char cadena[LONGCAD]
+		Funciones: Llamada a las demás funciones.
+
+	void mostrar_menu(int *opcion):
+		Variables: 	
+		Funciones: Muestra un menú por pantalla y recoge en una variable la opcion escogida.
+
+	void lectura_cadena(char cadena[]):
+		Variables: 	
+		Funciones: Lee una cadena que se introduzca por teclado y la almacena en una variable en mayusculas
+
+	void extraer_vocales(char cadena[], char matriz_vocales[][], char matriz_cadenas[][]):
+		Variables: 	
+		Funciones: Crea una entrada en una estructura con las vocales de una palabra en otra estructura analoga,
+			compartiendo la misma posicion la palabra original y las vocales extraidas.
+
+	void registro_cadena(char cadena[], char matriz_cadenas[][]):
+		Variables: 	
+		Funciones: Añade la cadena dada a la estructura dada, teniendo en cuenta la longitud de las cadenas
+			que ya había en la estructura.
+
+	void ordenar_estructura_alfabeto(char matriz_cadenas[][], char matriz_vocales):
+		Variables: 	
+		Funciones: Ordena la estructura de cadenas dada por el primer caracter de cada cadena.
+
+	void mostrar_listado(char matriz_cadenas[][], char matriz_vocales[][]):
+		Variables: 	
+		Funciones: Muestra la estructura de cadenas dada por pantalla.
+
+	void eliminar_palabra_posicion(char matriz_cadenas[][], char matriz_vocales[][], int pos):
+		Variables: 	
+		Funciones: Elimina una palabra y su analoga en la estructura de vocales segun la posicion.
+
+	void eliminar_palabra_inicial(char matriz_cadenas[][], char matriz_vocales[][], char ini):
+		Variables: 	
+		Funciones: Elimina una palabra y su analoga en la estructura de vocales segun la inical de la cadena original.
+
+	void contar_vocales(char matriz_vocales[][]):
+		Variables: int cont = 0;
+		Funciones: Cuenta las veces que aparece cada vocal en la estructuda de las vocales. Las que no aparezcan las omite.

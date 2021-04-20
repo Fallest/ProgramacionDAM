@@ -1,0 +1,33 @@
+Requisito: usar solo funciones void.
+
+void main():
+	Variables: int num, termino;
+		   char opcion;
+		   bool ejecucion = true;
+	En esta funcion se van a realizar las llamadas a las demas funciones.
+	Debe mostrar un menu con cuatro opciones (cada una de las otras funciones).
+	Dependiendo de la seleccion debe ejecutar una u otra funcion. No debe salir
+	del programa hasta que se llame a la funcion salir().
+
+void comprendido_entre(int num):
+	Variables: int termino1, termino2, num_term1, num_term2;
+	Recibe como parametro un numero entero positivo, y muestra por pantalla
+	entre que terminos de la serie doble_mas_uno esta comprendido.
+
+void doble_mas_uno(int termino):
+	Variables: int num_anterior = 0, i;
+	Recibe como parametro un termino concreto y calcula dicho termino,
+	mostrandolo por pantalla cuando lo calcule.
+
+void terminos_menores(int num):
+	Variables: int i, num_anterior = 0;
+	Recibe como parametro un entero positivo mayor que cero, y muestra
+	por pantalla cuantos terminos de la serie doble_mas_uno son inferiores
+	a dicho entero.
+
+void salir(bool *ejecucion):
+	Variables:
+	Recibe como parametro la direccion de memoria de un booleano, al cual
+	cambiara el valor a false.
+
+

@@ -1,0 +1,31 @@
+Realizar un programa que lea números entre 1 y 1000 hasta que se dé un 0 y calcule: 
+• la media de los números leídos. 
+• cuántos números terminan en cada uno de los dígitos (0 .. 9). 
+• el dígito en el que más números terminan. 
+• en qué dígitos no ha terminado ningún número. 
+
+==============================================================================
+
+Un avión dispone de 50 plazas, de las cuales 30 son de no fumador y numeradas de 1 a 30, y 20 plazas de fumador numeradas de 31 a 50. Diseñar un programa que permita hacer la reserva de plazas del avión y estas queden registradas en UN UNICO VECTOR. Para realizar una reserva debe pedirse el DNI del cliente.
+
+- Si no hay plazas en el cupo que pretende el usuario se le ofrece una plaza en el otro cupo.
+
+Una vez introducidas las reservas, sacar una lista de las plazas ocupadas con el DNI del cliente. Posteriormente sacar una lista de las plazas sin cubrir junto con el calificativo de fumador o no fumador, según corresponda. 
+
+RETO: Que el programa funcione con cualquier numero de plazas en ambos cupos.
+
+
+
+==============================================================================
+
+Se dispone de un vector con 10 números enteros. Realiza un programa que imprima los elementos del vector. Posteriormente, desplaza los elementos del vector una posición, de tal forma que el último pase a la primera posición, el primero a la segunda, el segundo a la tercera, y así sucesivamente. Después imprime los elementos del vector. No podrán utilizarse vectores auxiliares. 
+
+Vector original: 
+5 10 2 30 4 15 6 88 3 9 
+
+Vector desplazado: 
+9 5 10 2 30 4 15 6 88 3 
+
+RETOS:
+1) Que el desplazamiento pueda ser a ambos lados.
+2) Que el desplazamiento pueda ser de más de una celda.

@@ -1,0 +1,28 @@
+9) Dado un mes introducido numéricamente por el teclado, devolver por pantalla cuántos días tiene ese mes.
+
+
+
+10) Algoritmo que lee tres números A, B y C, los imprime en orden creciente e indica si fueron introducidos en ese orden. 
+
+
+
+11) Determinar la cantidad total a pagar por una llamada telefónica de acuerdo a las siguientes premisas: 
+-   Toda llamada que dure menos de tres minutos tiene 
+un coste de 0,25 euros. 
+-   Cada minuto adicional a partir de los tres primeros es un paso de contador y cuesta 
+0,1 euros. 
+
+
+
+12) Algoritmo que lee como dato de entrada un año y nos dice si se trata de un año bisiesto 
+o no. Se sabe que son bisiestos todos los años múltiplos de 4, excepto los que sean 
+múltiplos de 100 sin ser múltiplos de 400. 
+
+
+
+13) Realizar un programa que calcule el precio de la factura del agua leyendo del teclado el 
+número de metros cúbicos consumidos. Debe tener en cuenta que se cobra un mínimo 
+de 6 euros por el derecho a la distribución. Este mínimo incluye un gasto de 10 metros 
+cúbicos. Cada metro adicional hasta los 50 tiene un coste de 0.30 euros, pero si el 
+consumo es superior a 50 metros el precio de cada metro (incluidos los 50 primeros) es 
+de 0.45 euros. El resultado de la factura debe darse en euros y pesetas. 

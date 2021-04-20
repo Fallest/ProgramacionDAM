@@ -1,0 +1,12 @@
+17) Introducir 20 números por el teclado e imprimir cuántos son positivos, cuántos negativos, cuántos cero y la suma total de todos ellos. 
+
+
+18) Introducir números por el teclado hasta que se teclee el 0 e imprimir la media aritmética de los negativos y de los positivos. 
+
+
+19) Introducir dos números naturales e imprimir su cociente entero por el método de las restas sucesivas. 
+
+
+20) Introducir 10 parejas de números naturales A, B y para cada una de ellas visualizar su producto por el método de las sumas sucesivas: 
+
+(7 * 3 = 3 + 3 + 3 + 3 + 3 + 3 + 3) 

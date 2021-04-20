@@ -1,0 +1,5 @@
+Rellenar completamente un vector de N posiciones enteras.
+
+Pedimos al usuario un valor y una posicion.
+
+Insertamos el nuevo valor en el vector, concretamente en la posicion que me han dado.

@@ -1,0 +1,10 @@
+contrato == 'E' && antiguedad > 2 || contrato == 'F'
+
+! (numero % 3 == 0 && numero % 4 != 0)
+
+! ((edad >= 12 && edad <= 16) || (edad > 16 && trabaja == 'N'))
+
+retencion <= 16 && retencion >= 0
+
+
+

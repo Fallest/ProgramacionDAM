@@ -1,0 +1,57 @@
+Librerías:
+	stdlib.h, stdio.h
+
+Constantes:
+	TAM 10
+
+Funciones:
+
+	main():
+		Variables: 	int pila[TAM], num, opcion
+				bool ejecucion = true
+		Función: Contiene el bucle de ejecución del programa. 
+			Mostrar un menú para elegir qué función ejecutar o salir del
+			programa. Leerá los datos a introducir en las funciones y 
+			comprobará que sean correctos.
+
+	void introducir_valor(int num, int vector[ ]):
+		Variables:	int posicion, i
+
+		Función:	Introduce el número dado por parámetro en la posición
+				0 de la pila, desplazando todos los demás elementos
+				1 posición a la derecha. Si no hay espacio para meter
+				más elementos, mostrar un mensaje de error por pantalla.
+
+	void leer_cima(int vector[ ]):
+		Variables: 	int posicion, valor, i
+
+		Función: Muestra por pantalla el valor y la posición (contando desde el
+			final) de la cima.
+
+	void sacar_valores(int cantidad, int vector[ ]):
+		Variables:	int elementos_pila, i
+
+		Función: Elimina de la pila la cantidad de valores especificados por el
+			parámetro. Hay que controlar que la cantidad a eliminar no sea
+			mayor que la cantidad de valores que hay en el vector. Informar
+			al usuario del estado de la operación. Idealmente, informando qué
+			valor se elimina en qué posicion cada vez que se borre uno; 
+			indicando cuándo comienza y termina la operación.
+
+	void imprimir_contenido(int vector[ ]):
+		Variables: 	int i
+
+		Función: Muestra por pantalla la pila, en el orden en el que está.
+
+	void imprimir_contenido_ordenado(int vector[ ]):
+		Variables: 	int i, aux[TAM]
+
+		Función: Ordena el vector dado en un vector auxiliar, y luego muestra
+			por pantalla los datos del primer vector ordenados por valor.
+
+	void salir(bool *ejecucion):
+		Variables: 
+
+		Función: Cambia el valor del booleano dado a false.
+
+
