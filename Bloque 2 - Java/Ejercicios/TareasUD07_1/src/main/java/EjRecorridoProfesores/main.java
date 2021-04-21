@@ -2,6 +2,23 @@ package EjRecorridoProfesores;
 
 public class main {
     public static void main(String[] args) {
+        // Nota: no es neesario poner las llaves si solo se va a poner una 
+            // instrucción después del for, del if, del else o del while.
+            // Nota 2: La estructura if - else if también existe, en vez de poner:
+            /*
+            if x
+                haz esto
+            else 
+                if y
+                    haz esto otro
+            
+            Se puede hacer:
+            if x
+                haz esto
+            else if y
+                haz esto otro
+            */
+            
         // Variable interruptor
         String cad = "s";
         // Instituto con los departamentos y los profesores
