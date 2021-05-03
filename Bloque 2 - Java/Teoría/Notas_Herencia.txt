@@ -1,0 +1,37 @@
+HERENCIA
+========
+-Palabra reservada extends.
+
+-Herencia simple.
+
+-Se heredan todos los miembros.
+	-Tener en cuenta la visibilidad.
+
+	-private		Visible solo en la propia clase. (Las derivadas no lo ven)
+	-Sin modificador	Visible en la clase y en el paquete. (Las derivadas no lo ven)
+	-protected		Visible en la clase, el paquete, y las clases deriviadas.
+	-public			Visible en todo.
+
+-Si en un método o en una clase se usa final, este método no va a poder sobreescribirse por las clases derivadas, o la clase no se va a poder heredar.
+
+-Instanciación de la subclase:
+	-Lo primero que se ejecuta es el constructor de la superclase (de forma implicita).
+	-Si la superclase tiene varios constructores:
+		-El que se ejecuta de forma implicita es el constructor por defecto.
+		-Si queremos que se ejecute otro debemos utilizar super en la primera linea
+		del constructor de la clase derivada. Para llamar a otro constructor, a 
+		super se le dan los parámetros que se le darían a ese constructor; 
+		super(parametroParaConstructor).
+
+-La subclase puede sobreescribir metrodos de la superclase.
+	-Si se invoca el metodo de la subclase, ese y solo ese se ejecuta.
+		- Si se desea en dicho método de la subclase invocar al correspondiente a 
+		la superclase debemos usar super.nombreMetodo(param) en cualquier línea.
+
+-Si desde cualquier método de la subclase se desea ejecutar un método de la superclase 
+(que no se llame igual) no es necesario usar super.
+
+Otras palabras reservadas:
+	- Object instanceof ObjectDerivado : Devuelve true si ObjectDerivado es una clase
+	que hereda el tipo de objeto Object. (true si ObjectDerivado es un objeto derivado de
+	Object).

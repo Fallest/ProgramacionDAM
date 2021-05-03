@@ -1,0 +1,71 @@
+abstract class Instrumento {
+  private int i;
+  public abstract void tocar(Nota n);
+  public String queEs() {  return "Instrumento"; }
+  public abstract void ajustar();
+}
+
+
+class Viento extends Instrumento {
+  public void tocar(Nota n) {
+     print("Viento toca " + n);
+  }
+  public String queEs() {  return "Viento"; }
+  public void ajustar() {}
+}
+ 
+
+class Percusion extends Instrumento {
+  public void tocar(Nota n) {
+     print("Percusion toca " + n);
+  }
+  public String queEs()  { return "Percusion"; }
+  public void ajustar() {}
+}
+ 
+
+class Cuerda extends Instrumento {
+  public void tocar(Nota n) {
+     print("Cuerda toca " + n);
+  }
+  public String queEs() {  return "Cuerda"; }
+  public void ajustar() {}
+}   
+ 
+
+class VientoMetal extends Viento{
+  public void tocar(Nota n) {
+     print("Viento-Metal toca " + n);
+  }
+  public void ajustar() {  System.out.println("Viento-Metal ajustar"); }
+}
+ 
+
+class VientoMadera extends Viento{
+  public void tocar(Nota n) {
+     print("Viento-Madera toca " + n);
+  }
+  public String queEs() {  return "Viento-Madera"; }
+}   
+ 
+
+public class Musica {
+  static void tono(Instrumento i) {
+    //  ...
+    i.tocar(Nota.DO);
+  }
+  static void tonoTodos(Instrumento[] e) {
+    for(Instrumento i : e)
+       tono(i);
+  }   
+  public static void main(String[] args) {
+    Instrumento[]  orquesta = {
+      new Viento(),
+      new Percusion(),
+      new Cuerda(),
+      new VientoMetal(),
+      new VientoMadera()
+     };
+    tonoTodos(orquesta);
+  }
+}

@@ -1,0 +1,63 @@
+/*
+  Empleado e = new Jefe(); // Valido.
+  Jefe j = new Empleado(); // No valido. No todos los empleados son jefes.
+  
+  Si hay un parametro que es de un tipo determinado, permite que el argumento de la llamada
+  sea del mismo tipo o superior. Es decir, si tenemos un metodo:
+  
+  void metodo(Empleado e)
+  
+  admitiria las siguientes llamadas:
+  
+  metodo(objetoTipoJefe);
+  metodo(objetoTipoBecario);
+  metodo(objetoTipoEmpleado);
+  
+  Luego, dentro del metodo, para saber de que tipo es el objeto que ha recibido, se usa instanceof:
+*/
+
+void metodo(Empleado e)
+{
+  if(e instanceof Becario)
+    System.out.println("Se ha enviado un objeto de tipo Becario.");
+  else
+    if(e instanceof Jefe)
+	  System.out.println("Se ha enviado un objeto de tipo Jefe.");
+    else
+      System.out.println("Se ha enviado un objeto de tipo Empleado.");
+}
+
+/*
+  En el metodo anterior, independientemente del tipo que sea el objeto que se recibe, solo se podran
+  usar los metodos o propiedades de la clase Empleado. Para poder usar todas las propiedades o
+  metodos del objeto que se envia, habria que hacer una conversion de tipo (casting):
+*/
+
+void metodo(Empleado e)
+{
+  if(e instanceof Becario)
+  {
+    System.out.println("Se ha enviado un objeto de tipo Becario.");
+	Becario eb;
+	eb = (Becario)e;
+	. . . . . . .
+  }
+  else
+    if(e instanceof Jefe)
+	{
+	  System.out.println("Se ha enviado un objeto de tipo Jefe.");
+	  Jefe je;
+	  je = (Jefe)e;
+	  . . . . . . .
+    }
+    else
+      System.out.println("Se ha enviado un objeto de tipo Empleado.");
+}
+
+/*
+  Hay que tener en cuenta que todo becario y jefe es un empleado, por lo que si en el primer if ponemos:
+  
+    if(e instanceof Empleado)
+
+  siempre "entraria" por ahi.
+*/
