@@ -29,15 +29,14 @@ public class Equipo extends Empresa {
     
     void setGanador() {
         String win;
-        do {
-            System.out.println("¿Ha ganado el equipo algún campeonato?(s/n)");
-            win = Leer.dato();
+        
+        System.out.println("¿Ha ganado el equipo algún campeonato?(s/n)");
+        win = Leer.dato();
 
-            if ("s".equals(win))
-                this.ganador = true;
-            else if ("n".equals(win))
-                this.ganador = false;
-        } while (!"s".equals(win) || !"n".equals(win));
+        if ("s".equals(win))
+            this.ganador = true;
+        else
+            this.ganador = false;
     }
     
     void setJugadores() {
@@ -49,9 +48,6 @@ public class Equipo extends Empresa {
         } while (cantJugadores < 0 || cantJugadores > 20); // Se permiten menos de 12
         
         this.jugadores = new Jugador[cantJugadores];
-        
-        for (int i = 0; i < this.jugadores.length; i++)
-            this.jugadores[i] = new Jugador();
     }
     
     //Getters
@@ -72,13 +68,15 @@ public class Equipo extends Empresa {
         super.mostrarDatos();
         System.out.println("\tCantidad de temporadas en esta categoría: " + this.cantTempCat);
         System.out.println("\tPosición en la temporada pasada: " + this.posTemp);
-        System.out.println("\t Ha ganado algún campeonato: " + this.ganador);
+        System.out.println("\tHa ganado algún campeonato: " + this.ganador);
     }
     
     public void mostrarJugadores() {
         for (int i = 0; i < this.jugadores.length; i++) {
-            System.out.println("Jugador número " + (i+1) + ": ");
-            this.jugadores[i].mostrarDatos();
+            if (this.jugadores[i] != null) {
+                System.out.println("Jugador número " + (i+1) + ": ");
+                this.jugadores[i].mostrarDatos();
+            }
         }
     }
 }

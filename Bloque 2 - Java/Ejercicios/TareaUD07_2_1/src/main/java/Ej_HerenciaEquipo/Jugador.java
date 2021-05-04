@@ -39,7 +39,7 @@ public class Jugador {
             try {
                 ejec = false;
                 
-                System.out.println("\n\tIntroduzca la fecha de nacimiento (DD/MM/YYYY): ");
+                System.out.println("\tIntroduzca la fecha de nacimiento (DD/MM/YYYY): ");
                 cad = teclado.readLine();
                 this.fechaNac = new Fecha(Integer.parseInt(cad.substring(0, 2)),
                     Integer.parseInt(cad.substring(3, 5)), 

@@ -61,8 +61,9 @@ public class Principal {
     private static void altaEquipo(Equipo[] equipos) {
         for (int i = 0; i < equipos.length; i++)
             if (equipos[i] == null) {
-                System.out.println("Introduciendo equipo en la posición " + i + "...");
+                System.out.println("Introduciendo equipo en la posición " + (i+1) + "...");
                 equipos[i] = new Equipo();
+                break;
             }
     }
     
@@ -89,7 +90,7 @@ public class Principal {
         } while (op < 1 || op > 6);
         
         for (int i = 0; i < equipos.length; i++)
-            if (equipos[i].getCif().equals(cif)) {
+            if (equipos[i] != null && equipos[i].getCif().equals(cif)) {
                 ejecutarMod(op, equipos[i]);
             }
     }
@@ -124,23 +125,25 @@ public class Principal {
         cif = Leer.dato();
         
         for (int i = 0; i < equipos.length; i++)
-            if (equipos[i].getCif().equals(cif)) {
+            if (equipos[i] != null && equipos[i].getCif().equals(cif)) {
                 jugadoresAux = equipos[i].getJugadores();
                 
                 for (int j = 0; j < jugadoresAux.length; j++)
                     if (jugadoresAux[j] == null) {
                         System.out.println("Introduciendo un jugador en el equipo " +
-                                i + " en la posición " + j + "...");
+                                (i+1) + " en la posición " + (j+1) + "...");
                         jugadoresAux[j] = new Jugador();
+                        break;
                     }
             }
-                
     }
     
     private static void listadoEquipos(Equipo[] equipos) {
         for (int i = 0; i < equipos.length; i++) {
-            System.out.println("Equipo número " + (i+1) + ": ");
-            equipos[i].mostrarDatos();
+            if (equipos[i] != null) {
+                System.out.println("Equipo número " + (i+1) + ": ");
+                equipos[i].mostrarDatos();
+            }
         }
     }
     
@@ -150,7 +153,7 @@ public class Principal {
         cif = Leer.dato();
         
         for (int i = 0; i < equipos.length; i++)
-            if (equipos[i].getCif().equals(cif)) {
+            if (equipos[i] != null && equipos[i].getCif().equals(cif)) {
                 System.out.println("Jugadores del equipo con cif " + cif + ":");
                 equipos[i].mostrarJugadores();
             }
