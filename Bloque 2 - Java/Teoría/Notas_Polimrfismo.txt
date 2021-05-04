@@ -1,0 +1,5 @@
+Sobrecarga: Escribir métodos con el mismo nombre y diferentes parámetros en la misma clase.
+Sobrescritura: Escribir métodos con el mismo nombre y mismos parámetros entre clases
+relacionadas.
+Ligadura dinámica: Subclase sobrescribe métodos de la superclase. TIene que haber herencia,
+sobrescritura de métodos, y puede ser una instanciación como super clase de un objeto subclase.

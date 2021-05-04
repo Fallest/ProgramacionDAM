@@ -1,6 +1,4 @@
-
-import Polimorfismo_17.Empleado;
-import Polimorfismo_17.Jefe;
+package SobrescrituraMetodos_12;
 
 public class Main
 {

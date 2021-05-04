@@ -15,7 +15,7 @@ public class Jefe extends Empleado
 	nomDeparJefe = Leer.dato();
   }
   
-  void visualTodosDatos()
+  public void visualTodosDatos()
   {
     /* Se sobrescribe el metodo de la clase Empleado */
 	super.visualTodosDatos();

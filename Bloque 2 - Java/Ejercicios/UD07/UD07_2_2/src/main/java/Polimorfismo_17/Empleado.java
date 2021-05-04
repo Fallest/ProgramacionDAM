@@ -19,7 +19,7 @@ public class Empleado
 	edad = Leer.datoInt();
   }
   
-  void visualTodosDatos()
+  public void visualTodosDatos()
   {
     System.out.println("\nSe van a visualizar los datos de un empleado: ");
 	System.out.println("\n\tNOMBRE: " + nom);

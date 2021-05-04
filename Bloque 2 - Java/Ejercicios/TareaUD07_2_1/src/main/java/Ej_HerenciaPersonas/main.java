@@ -115,13 +115,13 @@ public class main {
     private static void introducirDatos(Persona p[]) {
         int i;
         
-        if (p[0] instanceof Persona)
+        if (p[0] instanceof Administrativo)
             for (i = 0; i < p.length; i++)
                 p[i] = new Persona();
         else if (p[0] instanceof Maquinista)
             for (i = 0; i < p.length; i++)
                 p[i] = new Maquinista();
-        else if (p[0] instanceof Administrativo)
+        else if (p[0] instanceof Persona)
             for (i = 0; i < p.length; i++)
                 p[i] = new Administrativo();
     }
@@ -137,13 +137,13 @@ public class main {
         int i, suma = 0, cont = 0;
         float media;
         
-        if (p[0] instanceof Persona) {
+        if (p[0] instanceof Administrativo) {
             for (i = 0; i < p.length; i++) {
                 suma += p[i].getEdad();
                 cont ++;
             }
             media = (float) suma / cont;
-            System.out.println("Media de edad de personas: " + media);
+            System.out.println("Media de edad de administrativos: " + media);
         }
         
         else if (p[0] instanceof Maquinista) {
@@ -155,13 +155,13 @@ public class main {
             System.out.println("Media de edad de maquinistas: " + media);
         }
         
-        else if (p[0] instanceof Administrativo) {
+        else if (p[0] instanceof Persona) {
             for (i = 0; i < p.length; i++) {
                 suma += p[i].getEdad();
                 cont ++;
             }
             media = (float) suma / cont;
-            System.out.println("Media de edad de administrativos: " + media);
+            System.out.println("Media de edad de personas: " + media);
         }
     }
 }

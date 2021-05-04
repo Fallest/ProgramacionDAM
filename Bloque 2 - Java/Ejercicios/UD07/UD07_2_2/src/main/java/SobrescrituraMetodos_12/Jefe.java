@@ -1,3 +1,5 @@
+package SobrescrituraMetodos_12;
+
 public class Jefe extends Empleado
 {
   String nomDeparJefe;

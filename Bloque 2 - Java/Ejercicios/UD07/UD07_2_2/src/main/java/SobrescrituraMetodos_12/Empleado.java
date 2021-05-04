@@ -1,3 +1,5 @@
+package SobrescrituraMetodos_12;
+
 public class Empleado
 {
   private String nom;
