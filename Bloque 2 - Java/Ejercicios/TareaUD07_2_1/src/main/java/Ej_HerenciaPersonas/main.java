@@ -17,13 +17,16 @@ public class main {
         cantAdministrativos = peditCantAdministrativos();
         cantPersonas = pedirCantPersonas();
         
+        // Establecer el sueldo para todos
+        Persona.setSueldo();
+        
         p = new Persona[cantPersonas];
         m = new Maquinista[cantMaquinistas];
         a = new Administrativo[cantAdministrativos];
         
-        introducirDatos(p);
-        introducirDatos(m);
-        introducirDatos(a);
+        introducirDatos(p, 'p');
+        introducirDatos(m, 'm');
+        introducirDatos(a, 'a');
         
         mostrarDatos(p);
         mostrarDatos(m);
@@ -112,30 +115,42 @@ public class main {
         return cantPersonas;
     }
     
-    private static void introducirDatos(Persona p[]) {
+    private static void introducirDatos(Persona p[], char tipo) {
         int i;
         
-        if (p[0] instanceof Administrativo)
-            for (i = 0; i < p.length; i++)
-                p[i] = new Persona();
-        else if (p[0] instanceof Maquinista)
-            for (i = 0; i < p.length; i++)
-                p[i] = new Maquinista();
-        else if (p[0] instanceof Persona)
-            for (i = 0; i < p.length; i++)
+        if (tipo == 'a') {
+            for (i = 0; i < p.length; i++) {
+                System.out.println("Administrativo/a " + (i+1));
                 p[i] = new Administrativo();
+            }
+        }
+        else if (tipo == 'm') {
+            for (i = 0; i < p.length; i++) {
+                System.out.println("Maquinista " + (i+1));
+                p[i] = new Maquinista();
+            }
+        }
+        else if (tipo == 'p') {
+            for (i = 0; i < p.length; i++) {
+                System.out.println("Persona " + (i+1));
+                p[i] = new Persona();
+            }
+        }
     }
 
     private static void mostrarDatos(Persona p[]) {
         int i;
         
         for (i = 0; i < p.length; i++)
-            p[i].mostrarDatos();
+            if (p[i] != null)
+                p[i].mostrarDatos();
     }
     
     private static void calcMedia(Persona p[]) {
         int i, suma = 0, cont = 0;
         float media;
+        
+        System.out.println("\n");
         
         if (p[0] instanceof Administrativo) {
             for (i = 0; i < p.length; i++) {

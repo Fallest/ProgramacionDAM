@@ -35,7 +35,7 @@ public class Persona {
         } while (ejec);
     }
     
-    public void setSueldo() {
+    public static void setSueldo() {
         boolean ejec;
         InputStreamReader stream = new InputStreamReader(System.in);
         BufferedReader teclado = new BufferedReader(stream);
