@@ -1,3 +1,7 @@
+package List_24;
+
+import java.util.*;
+
 class Principal
 {
 

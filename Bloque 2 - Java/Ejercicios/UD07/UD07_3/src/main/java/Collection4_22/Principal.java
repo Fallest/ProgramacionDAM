@@ -1,3 +1,7 @@
+package Collection4_22;
+
+import java.util.*;
+
 class Principal
 {
 
@@ -14,7 +18,7 @@ class Principal
 	while(iter.hasNext())
 	{
 	  dato=(String)iter.next();
-	  if(dato.charAt(o)=='b')
+	  if(dato.charAt(0)=='b')
 	    iter.remove();
 	}
 	

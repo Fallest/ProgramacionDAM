@@ -1,0 +1,5 @@
+El iterador, al instanciarlo apunta al primer objeto.
+Para que vuelva a apuntar al primer objeto, hay que reasignarlo:
+
+Iterator iter = colec.iterator(); // Instanciación y asignación.
+iter = colec.iterator(); // Reasignación.
