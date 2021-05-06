@@ -1,3 +1,5 @@
+package MetodoGenerico_26;
+
 import java.util.*;
 
 public class CVector<T>

@@ -1,3 +1,5 @@
+package MetodoGenerico_26;
+
 import java.util.*;
 
 public class Test
@@ -7,7 +9,7 @@ public class Test
     int i = 0;
 	for (T1 e:a)
 	{
-	  m[i++] = (T2)e.toString();
+	  m[i++] = (T2)e.toString(); // Post incremento i++, diferente de ++i.
 	}
   }
 

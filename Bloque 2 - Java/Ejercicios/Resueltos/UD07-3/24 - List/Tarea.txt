@@ -1,1 +1,0 @@
-Escribir un programa que vaya pidiendo diferentes nombres con el fin de visualizarlos en el mismo orden en el que se insertaron y en el orden contrario. Sabemos que, al menos, el usuario va a insertar un nombre. Para saber si el usuario quiere insertar algun nombre le haremos una pregunta (hay quie validar la respuesta).

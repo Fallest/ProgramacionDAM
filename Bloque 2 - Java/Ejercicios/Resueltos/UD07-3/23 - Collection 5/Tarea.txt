@@ -1,7 +1,0 @@
-Escribir un programa que pida los datos de una serie de empleados. De dichos empleados, nos interesa el nombre y la edad.
-
-El programa va a estar pidiendo datos de empleados hasta que se inserte como edad un dato no numérico y debe irlos insertando en una colección ArrayList.
-
-Posteriormente, se le pedirá al usuario que inserte una edad con el fin de borrar todos los empleados que tengan una edad inferior a la indicada.
-
-Mostrar el contenido de la colección antes y después del borrado.

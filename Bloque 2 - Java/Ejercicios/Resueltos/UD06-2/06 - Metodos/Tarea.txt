@@ -1,3 +1,0 @@
-Cambia el programa para que el método mensajeSaludo2 sea invocado desde el método mensajeSaludo1.
-
-Dentro del método mensajeSaludo1() ¿puedo poner obj1.mensajeSaludo2();?

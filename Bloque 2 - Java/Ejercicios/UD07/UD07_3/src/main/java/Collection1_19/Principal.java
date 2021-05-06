@@ -14,7 +14,7 @@ class Principal
     colec.add(new Integer(25));  // O bien colec.add(25);
     colec.add(new Integer(63));
     colec.add(new Integer(25));
-    colec.add(new St2ring("a"));
+    colec.add(new String("a"));
     Integer ent;
     Iterator iterador = colec.iterator();
     while(iterador.hasNext())

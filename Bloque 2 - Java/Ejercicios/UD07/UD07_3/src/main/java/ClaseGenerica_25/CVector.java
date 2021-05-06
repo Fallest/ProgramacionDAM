@@ -1,3 +1,5 @@
+package ClaseGenerica_25;
+
 import java.util.*;
 
 public class CVector<T>
@@ -8,11 +10,11 @@ public class CVector<T>
   public CVector(int... ne) // ne elementos
   {
     int nElementos;
-	if (ne.length < 1)
-	  nElementos = 10; // elementos por omision
-	else
-	  nElementos = ne[0];
-	vector = new ArrayList<T>(nElementos);
+    if (ne.length < 1)
+      nElementos = 10; // elementos por omision
+    else
+      nElementos = ne[0];
+    vector = new ArrayList<T>(nElementos);
   }
   
   // Crea un CVector desde una matriz

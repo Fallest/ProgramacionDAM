@@ -1,1 +1,0 @@
-Escribe un programa que pida los datos de 3 alumnos. De estos alumnos, nos interesa el nombre y la edad. Posteriormente, el programa debe visualizar la media de edad de los tres alumnos.
