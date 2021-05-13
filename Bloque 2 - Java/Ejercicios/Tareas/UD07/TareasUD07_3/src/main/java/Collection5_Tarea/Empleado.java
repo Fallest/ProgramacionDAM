@@ -20,4 +20,12 @@ public class Empleado {
         System.out.println("\tIntroduzca la edad: ");
         this.edad = Leer.datoInt();
     }
+    
+    public int getEdad() {
+        return this.edad;
+    }
+    
+    public String toString() {
+        return "Nombre: " + this.nombre + " - Edad: " + this.edad;
+    }
 }

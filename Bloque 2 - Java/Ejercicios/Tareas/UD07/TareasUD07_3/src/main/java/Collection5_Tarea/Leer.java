@@ -36,14 +36,7 @@ public class Leer
   
   public static int datoInt()
   {
-    try
-    {
       return Integer.parseInt(dato());
-    }
-    catch(NumberFormatException e)
-    {
-      return Integer.MIN_VALUE; // valor más pequeño
-    }
   }
   
   public static long datoLong()
