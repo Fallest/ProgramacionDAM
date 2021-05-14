@@ -1,6 +1,5 @@
 package List_Tarea;
 
-import Collection5_Tarea.*;
 import java.io.*;
 
 public class Leer
