@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Reto6 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\David\AppData\Local\Temp\RSP1215.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Reto6.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\David\Documents\1-DAM\PRO\Bloque 1 - C\Ejercicios\UD04\Reto6\Reto6.cpp"
+]
+Creating command line "cl.exe @C:\Users\David\AppData\Local\Temp\RSP1215.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Reto6.cpp
+c:\users\david\documents\1-dam\pro\bloque 1 - c\ejercicios\ud04\reto6\reto6.cpp(31) : warning C4200: nonstandard extension used : zero-sized array in struct/union
+c:\users\david\documents\1-dam\pro\bloque 1 - c\ejercicios\ud04\reto6\reto6.cpp(39) : error C2233: '<Unknown>' : arrays of objects containing zero-size arrays are illegal
+c:\users\david\documents\1-dam\pro\bloque 1 - c\ejercicios\ud04\reto6\reto6.cpp(41) : error C2233: '<Unknown>' : arrays of objects containing zero-size arrays are illegal
+c:\users\david\documents\1-dam\pro\bloque 1 - c\ejercicios\ud04\reto6\reto6.cpp(47) : error C2233: '<Unknown>' : arrays of objects containing zero-size arrays are illegal
+c:\users\david\documents\1-dam\pro\bloque 1 - c\ejercicios\ud04\reto6\reto6.cpp(50) : error C2233: '<Unknown>' : arrays of objects containing zero-size arrays are illegal
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Reto6.obj - 4 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
