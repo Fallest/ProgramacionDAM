@@ -1,0 +1,7 @@
+Escribir un programa que inicialice cuatro objetos de tipo File: dos que hagan referencia a ficheros que uno exista y otro no, y dos a directorios, que uno exista y otro no.
+
+El programa debe averiguar si existen dichos ficheros o directorios, independientemente que sean una cosa o la otra.
+
+También debe averiguar para cada objeto que exista si es un fichero o directorio. A la hora de visualizar el nombre del fichero, probar a usar los diferentes métodos get que ofrece la clase File para ver la diferencia que hay entra cada uno de ellos.
+
+También se puede ampliar el ejercicio borrando un fichero, averiguando cuál es su tamaño, visualizando la lista de ficheros que tiene un directorio, etc.

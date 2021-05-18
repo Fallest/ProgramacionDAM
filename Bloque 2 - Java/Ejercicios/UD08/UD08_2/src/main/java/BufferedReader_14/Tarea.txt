@@ -1,0 +1,1 @@
+Escribir un programa que guarde en un fichero una serie de frases que va a insertar el usuario hasta que inserte la palabra "fin". Posteriormente, el programa debe visualizar las frases que contiene el fichero. Hacerlo utilizando la clase BufferedReader.

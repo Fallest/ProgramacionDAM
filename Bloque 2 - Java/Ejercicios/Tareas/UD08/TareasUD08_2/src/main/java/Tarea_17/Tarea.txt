@@ -1,0 +1,3 @@
+Escribir un programa que pida los datos de una serie de empleados. Se van a estar insertando datos de empleados hasta que el usuario indique que no quiere insertar ninguno más. Estos datos se irán guardando en un fichero.
+
+Escribir otro programa que recupere los datos del fichero anterior con el fin de visualizar los datos de aquellos empleados que ganen un sueldo superior a una cantidad que se indicará con el teclado.

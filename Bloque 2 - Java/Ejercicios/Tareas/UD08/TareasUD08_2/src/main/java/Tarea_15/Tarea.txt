@@ -1,0 +1,5 @@
+Escribir un programa que pida una serie de números enteros hasta que el usuario inserte letras.
+
+Seguidamente, el programa visualizará el contenido completo del fichero. Una vez realizara dicha supervisión, el programa pedirá una posición con el fin de visualizar el número que se insertó en dicha posición. Hay que validar que la posición que indique el usuario sea una posición posible en función de la cantidad de números que se han insertado en el fichero.
+
+Tener el cuenta que un entero ocupa cuatro bytes.

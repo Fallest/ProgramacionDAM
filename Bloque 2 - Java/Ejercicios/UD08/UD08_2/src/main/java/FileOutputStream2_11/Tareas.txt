@@ -1,0 +1,5 @@
+Modificar el ejemplo anterior con el fin de poder visualizar cuántos caracteres hay en el fichero original. Averiguar cuál es el método de la clase FileInputStream que da esa información.
+
+---------------------------------------------------
+
+Visualizar la información de los dos ficheros con el fin de comprobar que contiene la misma información.

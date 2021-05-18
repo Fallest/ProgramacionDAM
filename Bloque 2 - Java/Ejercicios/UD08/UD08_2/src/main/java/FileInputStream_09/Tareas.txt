@@ -1,0 +1,9 @@
+Modificar el ejemplo anterior de tal forma que dentro del catch se visualice un mensaje más completo que indique el nombre del fichero que no existe y su path completo.
+
+-----------------------------------------------------
+
+Escribir un programa que lea de una sola vez todos los caracteres que tiene un fichero, visualizando dicho contenido en la pantalla.
+
+-----------------------------------------------------
+
+Escribir un programa que lea el contenido de un fichero con el fin de indicar cuántas veces aparece cada uno de los caracteres del código ASCII en el fichero.

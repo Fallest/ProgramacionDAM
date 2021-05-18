@@ -1,0 +1,1 @@
+Escribir un programa que inicialice tres tablas con los datos de una serie de alumnos. En una tabla vamos a guardar sus nombres, en otra la edad y en la última la nota con decimales que ha obtenido cada alumno en el módulo de programación. Posteriormente, guardará dichos datos dentro de un ficnero y, por último, visualizará el contenido del fichero.

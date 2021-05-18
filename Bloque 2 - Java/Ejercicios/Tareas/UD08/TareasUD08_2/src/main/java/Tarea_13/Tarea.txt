@@ -1,0 +1,1 @@
+Escribir un programa que pida una serie de frases hasta que se inserte como frase la palabra "fin". Dichas frases se van a ir guardando en un fichero. Seguidamente, se visualizará el contenido del fichero, frase por frase. Cada vez que se ejecute el programa se deben desechar las frases que tuviera el fichero (v1) o bien se deben ir añadiendo a las ya existentes (v2).

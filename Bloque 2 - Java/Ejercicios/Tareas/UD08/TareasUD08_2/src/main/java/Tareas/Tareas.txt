@@ -1,0 +1,19 @@
+1) Escribir un programa que pida el camino completo para llegar a un fichero o directorio, con el fin de informar de si lo que se ha indicado es una cosa o la otra.
+
+Si es un fichero, hay que indicar:
+- El tamaño del archivo.
+- El camino competo sin indicar el nombre del fichero.
+
+Si es un directorio, hay que visualizar un listado completo de los ficheros y carpetas que contiene tal directorio.
+
+
+
+2) Escribir un programa que guarde en un fichero un listado de las propiedades que tiene una persona. Se indicará la dirección de la propiedad, metros cuadrados que ocupa y precio. Se van a estar insertando propiedades hasta que el usuario indique un Enter como dirección de la propiedad.
+
+
+
+3) Escribir un programa que visualice un listado de las propiedades que se insertaron en el ejercicio anterior, indicando cuáles son los metros cuadrados de la propiedad más grande que tiene y el total de dinero que hay invertido en ellas.
+
+
+
+4) Escribir un programa que pida una clave al usuario, pidiendo que la vuelva a poner otra vez con el fin de comprobar que lo ha indicado bien. Se irán guardando todas las claves que el usuario ha utilizado, con el fin de que una clave nueva no coincida con ninguna de las anteriores (si coincide, se volverá a pedir otra).

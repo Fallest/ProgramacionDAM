@@ -1,0 +1,7 @@
+Esto es
+una
+
+prueba
+  de fichero
+de
+texto.

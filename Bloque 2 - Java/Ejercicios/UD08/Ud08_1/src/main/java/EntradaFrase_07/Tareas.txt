@@ -1,0 +1,9 @@
+Escribir un programa que pida una serie de cadenas hasta que se inserte la palabra "fin".
+
+Se irán visualizando cada una de las cadenas que se vayan insertando, incluida la palabra "fin".
+
+Usar la entrada estándar de datos desde el teclado.
+
+-----------------------------------
+
+Escribir un programa que pida un carácter inicial haciendo uso de la entrada estándar de datos. Seguidamente el programa pedirá una serie de caracteres hasta que se inserte el carácter inicial. Posteriormente, se visualizarán todos los caracteres insertados formando una frase.
