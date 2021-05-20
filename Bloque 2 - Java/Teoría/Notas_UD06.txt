@@ -1,2 +1,0 @@
-En los programas Java debe existir una clase principal.
-En esta clase principal debe existir un método main.

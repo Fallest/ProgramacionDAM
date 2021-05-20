@@ -1,3 +1,5 @@
+package FileOutputStream1_10;
+
 import java.io.*;
 
 public class Leer

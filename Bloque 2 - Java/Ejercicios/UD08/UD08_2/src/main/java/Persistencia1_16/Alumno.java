@@ -1,3 +1,5 @@
+package Persistencia1_16;
+
 import java.io.*;
 
 public class Alumno implements Serializable {
