@@ -1,0 +1,3 @@
+- Estructura de datos de ArrayList, con nodos de una clase catálogo.
+- Operaciones de gestión típicas (alta, baja, modificación, consulta, listado).
+- Definicion y uso de una clase anónima.
