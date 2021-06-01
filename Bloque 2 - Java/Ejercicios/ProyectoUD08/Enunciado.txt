@@ -1,0 +1,5 @@
+- Clase catálogo.
+- Creación de un archivo binario con los datos de una serie de ejemplares de esa clase.
+- Carga de los datos del fichero en memoria (recomendación: Arraylist).
+- Menú de opciones de gestión (las operaciones que se os ocurran).
+- Al elegir "Salir", grabación de los datos del programa en tres formatos: binario (como el fichero original), persistente (como objetos) y de texto (solo un dato de cada objeto).
